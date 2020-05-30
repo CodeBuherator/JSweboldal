@@ -84,17 +84,17 @@ function step12(){
 
 function step13(){
     document.getElementById("display").innerHTML = "Esetleg valami kép";
-    document.body.style = "background-image: url(\"../images/bg1.jpg\")";
+    document.body.style = "background-image: url(\"images/bg1.jpg\")";
     setTimeout(step14, delay/3);
 }
 
 function step14(){
-    document.body.style = "background-image: url(\"../images/bg2.jpg\")";
+    document.body.style = "background-image: url(\"images/bg2.jpg\")";
     setTimeout(step15, delay/3);
 }
 
 function step15(){
-    document.body.style = "background-image: url(\"../images/bg3.jpg\")";
+    document.body.style = "background-image: url(\"images/bg3.jpg\")";
     setTimeout(step16, delay/3);
 }
 
